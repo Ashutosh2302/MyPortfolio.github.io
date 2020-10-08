@@ -9,23 +9,7 @@
 
     <title></title>
     <link rel='stylesheet' href='style.css'>
-    <script src="jquery.js"></script>
-    <script>
-        $(function() {
-
-        var $btn = $('#btnTop');
-        var $home = $('#topSection');
-        var startpoint = $home.scrollTop() + $home.height();
-
-        $(window).on('scroll', function() {
-        if($(window).scrollTop() > startpoint) {
-        $btn.show();
-        } else {
-        $btn.hide();
-        }
-        });
-        });
-    </script>
+    
   </head>
   <body>
 
@@ -74,11 +58,7 @@
   </div>
 
 </div>
-  <div id="btnTop" class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;display: none;">
-    <a href="#topSection" class="btn-floating btn-large red">
-      <i class="fa fa-arrow-up"></i>
-    </a>
-  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div id='About-me' class='mt-5'>
 	<div class='container-fluid'>
@@ -362,7 +342,24 @@
 			</div>
 	 </div>
 </div>
+<script>
 
+		var mybutton = document.getElementById("myBtn");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		
+</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
