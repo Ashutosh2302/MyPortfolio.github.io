@@ -1,0 +1,90 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.home{
+  background-image: url('images/back8.jpeg');
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+  color: #0e76a8;
+  background-color : white;
+}
+
+/* Twitter */
+.fa-github {
+  color: #211F1F;
+  background-color: white;
+}
+.home a:hover{
+	text-decoration: none
+}
+#About-me h2{
+	text-transform: uppercase;
+	color:orange;
+	font-size: 30px;
+}
+
+#Skills h2{
+	text-transform: uppercase;
+	color:orange;
+	font-size: 30px;
+}
+
+#Education h2{
+	text-transform: uppercase;
+	color:orange;
+	font-size: 30px;
+}
+
+#Projects h2{
+	text-transform: uppercase;
+	color:orange;
+	font-size: 30px;
+}
+
+
+#IA h2{
+	text-transform: uppercase;
+color:orange;
+	font-size: 30px;
+	
+}
+#skills hr{
+	color: orange;
+}
+.c{
+	color: white;
+}
+#About-me hr,#Projects hr, #IA hr, #Education hr, #Skills hr{
+	border:.1px solid orange;
+	margin-top: -16px;
+}
