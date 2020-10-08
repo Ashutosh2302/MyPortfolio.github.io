@@ -9,6 +9,23 @@
 
     <title></title>
     <link rel='stylesheet' href='style.css'>
+    <script src="jquery.js"></script>
+    <script>
+        $(function() {
+
+        var $btn = $('#btnTop');
+        var $home = $('#topSection');
+        var startpoint = $home.scrollTop() + $home.height();
+
+        $(window).on('scroll', function() {
+        if($(window).scrollTop() > startpoint) {
+        $btn.show();
+        } else {
+        $btn.hide();
+        }
+        });
+        });
+    </script>
   </head>
   <body>
 
@@ -43,14 +60,26 @@
 </nav>
 
 
-<div class='home'>
-	<div class='landing-text'>
-		<h1 class='display-4 text-white font-weight-bold'>Ashutosh Bansal</h1>
-		<h4 class='text-white'>Final year computer engineering student</h4>
-		<a href='https://www.linkedin.com/in/ashutosh-bansal-236bb0185/' class='fa fa-linkedin'></a>
-		<a href='https://github.com/Ashutosh2302' class='fa fa-github'></a>
-	</div>
+
+
+<div id='section1'>
+
+  <div class='home'>
+  	<div class='landing-text'>
+  		<h1 class='display-4 text-danger font-weight-bold'>Ashutosh Bansal</h1>
+  		<h4 class='text-white'>Final year computer engineering student</h4>
+  		<a href='https://www.linkedin.com/in/ashutosh-bansal-236bb0185/' class='fa fa-linkedin'></a>
+  		<a href='https://github.com/Ashutosh2302' class='fa fa-github'></a>
+  	</div>
+  </div>
+
 </div>
+  <div id="btnTop" class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;display: none;">
+    <a href="#topSection" class="btn-floating btn-large red">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+  </div>
+
 <div id='About-me' class='mt-5'>
 	<div class='container-fluid'>
 

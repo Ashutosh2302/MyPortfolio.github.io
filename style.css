@@ -3,6 +3,9 @@ html,body{
 	height: 100%;
 	background-color: black;
 }
+#section1{
+	height:100%;
+}
 .home{
   background-image: url('images/back8.jpeg');
   display: table;
@@ -11,7 +14,7 @@ html,body{
   width: 100%;
   background-size: cover;
   overflow: hidden;
-  
+
 }
 .landing-text{
 	display: table-cell;
@@ -76,7 +79,7 @@ html,body{
 	text-transform: uppercase;
 color:orange;
 	font-size: 30px;
-	
+
 }
 #skills hr{
 	color: orange;
