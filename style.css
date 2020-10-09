@@ -8,7 +8,9 @@ html,body{
 }
 #About-me h5{
 	font-family: 'calibri'
+
 }
+
 .c1{
 	font-family: "Times New Roman", Times, serif;
 }
@@ -38,6 +40,7 @@ html,body{
 }
 .home{
   background-image: url('images/back.jpg');
+  background-attachment: fixed;
   display: table;
   height: 100%;
   position: relative;
