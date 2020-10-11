@@ -39,7 +39,7 @@ html,body{
   background-color: #555;
 }
 .home{
-  background-image: url('images/back.jpg');
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/back8.jpeg');
   background-attachment: fixed;
   display: table;
   height: 100%;
