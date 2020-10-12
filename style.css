@@ -124,5 +124,5 @@ color:orange;
 	border:.1px solid orange;
 	margin-top: -16px;
 }
-.carousel { width:400px; height:250px; }
-.carousel-inner > .carousel-item > img { width:400px; height:250px; }
+.carousel { width:360px; height:230px; }
+.carousel-inner > .carousel-item > img { width:360px; height:230px; }
