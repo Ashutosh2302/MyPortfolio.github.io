@@ -62,20 +62,16 @@ html,body{
   text-decoration: none;
   border-radius: 50%;
 }
-/* Add a hover effect if you want */
+
 .fa:hover {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-linkedin {
   color: #0e76a8;
   background-color : white;
 }
 
-/* Twitter */
 .fa-github {
   color: #211F1F;
   background-color: white;
@@ -86,32 +82,32 @@ html,body{
 #About-me h2{
 	text-transform: uppercase;
 	color:orange;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 #Skills h2{
 	text-transform: uppercase;
 	color:orange;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 #Education h2{
 	text-transform: uppercase;
 	color:orange;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 #Projects h2{
 	text-transform: uppercase;
 	color:orange;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 
 #IA h2{
 	text-transform: uppercase;
 color:orange;
-	font-size: 30px;
+	font-size: 40px;
 
 }
 #skills hr{
@@ -126,3 +122,11 @@ color:orange;
 }
 .carousel { width:360px; height:230px; }
 .carousel-inner > .carousel-item > img { width:360px; height:230px; }
+
+.c h4, .chead h4{
+  text-decoration: underline;
+}
+
+.heading h4{
+ text-decoration: underline; 
+}
