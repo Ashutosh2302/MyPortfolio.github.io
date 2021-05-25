@@ -97,6 +97,12 @@ html,body{
 	font-size: 40px;
 }
 
+#Experience h2{
+	text-transform: uppercase;
+	color:orange;
+	font-size: 40px;
+}
+
 #Projects h2{
 	text-transform: uppercase;
 	color:orange;
@@ -116,7 +122,7 @@ color:orange;
 .c{
 	color: white;
 }
-#About-me hr,#Projects hr, #IA hr, #Education hr, #Skills hr{
+#About-me hr,#Projects hr, #IA hr, #Education hr, #Skills hr, #Experience hr{
 	border:.1px solid orange;
 	margin-top: -16px;
 }
