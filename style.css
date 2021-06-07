@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Staatliches&family=Titillium+Web:wght@300&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
 html,body{
 	width: 100%;
 	height: 100%;
 	background-color: black;
+
 }
 #section1{
 	height:100%;
@@ -11,9 +20,9 @@ html,body{
 
 }
 
-.c1{
+/* .c1{
 	font-family: "Times New Roman", Times, serif;
-}
+} */
 
 .heading {
   font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +48,7 @@ html,body{
   background-color: #555;
 }
 .home{
-  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/back8.jpeg');
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
   background-attachment: fixed;
   display: table;
   height: 100%;
@@ -53,7 +62,31 @@ html,body{
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+  animation: slide_up 2.4s ease;
+ /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
+.landing-text .c1{
+  font-size: 60px;
+  color:white;
+  animation: slide_up 2.4s ease;
+}
+
+.landing-text .c1 span{
+  font-size: 100px;
+}
+.landing-text .title span{
+
+  color: Red;
+
+
+}
+.landing-text .title{
+  font-size: 60px;
+  color:white;
+}
+
 .fa {
   padding: 10px;
   font-size: 20px;
@@ -62,7 +95,14 @@ html,body{
   text-decoration: none;
   border-radius: 50%;
 }
-
+.navbar{
+  background-color: black;
+  font-weight: bold;
+ 
+}
+.navbar .collapse .nav-link:hover{
+  color: red;
+}
 .fa:hover {
   opacity: 0.7;
 }
@@ -81,58 +121,71 @@ html,body{
 }
 #About-me h2{
 	text-transform: uppercase;
-	color:orange;
+	color:red;
 	font-size: 40px;
+}
+#skills h4{
+  text-transform: uppercase;
 }
 
 #Skills h2{
 	text-transform: uppercase;
-	color:orange;
+	color:red;
 	font-size: 40px;
 }
 
 #Education h2{
 	text-transform: uppercase;
-	color:orange;
+	color:red;
 	font-size: 40px;
 }
 
 #Experience h2{
 	text-transform: uppercase;
-	color:orange;
+	color:red;
 	font-size: 40px;
 }
 
 #Projects h2{
 	text-transform: uppercase;
-	color:orange;
+	color:red;
 	font-size: 40px;
 }
 
 
 #IA h2{
 	text-transform: uppercase;
-color:orange;
+color:red;
 	font-size: 40px;
 
 }
-#skills hr{
+/* #skills hr{
 	color: orange;
-}
+} */
 .c{
 	color: white;
 }
 #About-me hr,#Projects hr, #IA hr, #Education hr, #Skills hr, #Experience hr{
-	border:.1px solid orange;
+	border:.1px solid red;
 	margin-top: -16px;
 }
 .carousel { width:360px; height:230px; }
 .carousel-inner > .carousel-item > img { width:360px; height:230px; }
 
-.c h4, .chead h4{
+/* /* .c h4, .chead h4{
   text-decoration: underline;
-}
+} */
 
 .heading h4{
- text-decoration: underline; 
+ color: red 
+} 
+
+@keyframes slide_up{
+  0%{
+    transform: translateY(250px);
+  }
+  
+  50%{
+    transform: translateY(0);
+  }
 }
