@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
+}
+/* .home{
+
+  background-attachment: fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+
+} */
+.landing-text .c1{
+  font-size: 3.6vw;
+  color:white;
+  animation: slide_up 4s ease;
+  font-family: 'Titillium Web', sans-serif;
+}
+.landing-text .title{
+  font-size: 3.5vw;
+  color:white;
+  width: 9ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 10s infinite;
+  border-right: 3px solid red;
+}
+.landing-text .c1 span{
+  font-size: 6vw;
+}
+.landing-text .title span{
+  color: Red;
+}
+.navbar{
+  background-color: black;
+  font-weight: bold;
+}
+
+.navbar .content .nav-link:Hover{
+  color: red;
+}
+.navbar .content .nav-link{
+  padding-left: 1vw;
+}
+.navbar .content .active_class{
+  color:yellow;
+}
+@keyframes slide_up{
+  0%{
+    transform: translateY(-300px);
+  }
+  
+  25%{
+    transform: translateY(0);
+  }
+  
+  50%{
+    transform: translateY(-50px);
+  }
+  
+  75%{
+    transform: translateY(0);
+  }
+}
+@keyframes text{
+  0%{
+    width: 9ch;
+  }
+  
+  50%{
+    width: 27.9ch;
+  }
+}
