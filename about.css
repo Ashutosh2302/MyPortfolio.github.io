@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Staatliches&family=Titillium+Web:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+ height:100vh; 
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
+}
+
+.navbar{
+  background-color: black;
+  font-weight: bold;
+}
+.navbar .collapse .nav-link:Hover{
+  color: red;
+}
+.navbar .collapse .active{
+  color: red;
+}
+.navbar .collapse .nav-link{
+  padding-left: 1vw;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+}
+
+.image{
+  /* border: 2px solid green; */
+  margin-top:20px;
+  margin-bottom:20px;
+  display: inline-block;
+  margin:auto;
+  float:left;
+  margin-right:20px;
+  
+}
+#image1{
+  animation: slide_down 8s;
+}
+#image2{
+  animation: slide_right 8s;
+}
+#image3{
+  animation: slide_up 8s;
+}
+.text{
+     font-size: 30px;
+    color: white;
+    margin:auto;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;	
+    padding:20px;
+    /* border: 2px red solid;  */
+    color:orange;
+    font-weight: bold;
+    
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ #text1{
+    margin-top:30px;
+   animation: scroll1 6s; 
+  
+   
+}
+#text2{
+ 
+  animation: scroll2 6s; 
+  
+ 
+}
+#text3{
+
+  animation: scroll3 6s; 
+  
+} 
+@keyframes scroll1 {
+  0%{
+    transform: translateX(-500px);
+  }
+  
+  25%{
+    transform: translateX(0);
+  }
+/*   
+  50%{
+    transform: translateY(-50px);
+  }
+  
+  75%{
+    transform: translateY(0);
+  } */
+}
+@keyframes scroll2 {
+  0%{
+    transform: translateX(-500px);
+  }
+  
+  50%{
+    transform: translateX(0px);
+  }
+  
+  /* 50%{
+    transform: translateY(-50px);
+  }
+  
+  75%{
+    transform: translateY(0);
+  } */
+}
+@keyframes scroll3 {
+  0%{
+    transform: translateX(-500px);
+  }
+  
+  75%{
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide_down {
+  0%{
+    transform: translateY(-500px);
+  }
+  
+  75%{
+    transform: translateY(0px);
+  }
+}
+@keyframes slide_right {
+  0%{
+    transform: translateX(-500px);
+  }
+  
+  75%{
+    transform: translateX(0px);
+  }
+}
+@keyframes slide_up {
+  0%{
+    transform: translateY(500px);
+  }
+  
+  75%{
+    transform: translateY(0px);
+  }
+}
