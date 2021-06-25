@@ -5,6 +5,9 @@
   box-sizing: border-box;
   outline: none;
 }
+html{
+  font-size: 100%;
+}
 body{
  height:100vh; 
  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
@@ -31,11 +34,11 @@ body{
   width:90%;
   margin:auto;
   /* text-transform: justify; */
-  padding: 30px;
+  padding: 3rem;
 }
 .title{
   color:white;
-  font-size: 40px;
+  font-size: 3rem;
 }
 .company{
   color:white;
@@ -59,34 +62,44 @@ body{
   animation: animate3 5s;
 }
 .points{
-  padding:15px;
+  padding:.5rem;
   font-family: 'Benne', serif;
   font-size: 1.7vw ;
 }
 @keyframes animate1 {
     0%{
-        transform: translateX(-500px);
+        transform: translateX(-50rem);
       }
         
     75%{
-        transform: translateX(0px);
+        transform: translateX(0);
       }     
 }
 @keyframes animate2 {
   0%{
-      transform: translateX(-250px);
+      transform: translateX(-25rem);
     }
       
   75%{
-      transform: translateX(0px);
+      transform: translateX(0);
     }     
 }
 @keyframes animate3 {
   0%{
-      transform: translateX(-100px);
+      transform: translateX(-10rem);
     }
       
   75%{
-      transform: translateX(0px);
+      transform: translateX(0);
     }     
+}
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
 }
