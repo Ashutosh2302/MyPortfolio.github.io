@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Staatliches&family=Titillium+Web:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 100%;
+}
+body{
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
+}
+
+.navbar{
+  background-color: black;
+  font-weight: bold;
+}
+
+.navbar .collapse .nav-link:Hover{
+  color: red;
+}
+.navbar .collapse .active{
+  color: red;
+}
+.navbar .collapse .nav-link{
+  padding-left: 1rem;
+}
+
+#Skills{
+  width:70%;
+  margin:auto;
+  /* text-transform: justify; */
+  padding: 3rem;
+}
+#languages{
+  float:left; 
+  width:40%;
+  border-bottom: 1rem solid red;
+  border-left: 1rem solid red;
+  border-right: 1rem solid red;
+  animation: animate1 5s;
+  text-align: center;
+
+}
+#technologies{
+  float:right; 
+  width:50%;
+  border-bottom: 1rem solid red;
+  border-left: 1rem solid red;
+  border-right: 1rem solid red;
+  text-align: center;
+  animation: animate2 5s;
+}
+.content{
+  margin:1rem;
+  padding:.2rem;
+  border: .2rem solid blue;
+  font-weight: bold;
+}
+.stack2{
+  color:#00FF00;
+}
+.stack1{
+  color:#FF00FF;
+}
+#css, #html, #c, #cplus, #pyhton, #sql{
+  animation:animate 6s;
+}
+@keyframes animate{
+    0%{
+      transform: translateY(-30rem);
+    }
+    
+    75%{
+      transform: translateY(0);
+    }
+    
+  }
+  @media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+  }
+  @media(max-width:768px){
+    html{
+      font-size: 45%;
+    }
+  }
