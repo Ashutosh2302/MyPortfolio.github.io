@@ -45,21 +45,24 @@ body{
 #learnings {
   float:left; 
   width:30%;
+  animation: animate1 5s;
 }
 #technologies{
   float:left; 
   width:23%;
+  animation: animate2 5s;
 }
 #contribution{
   float:right;
   width:45%;
+  animation: animate3 5s;
 }
 .points{
-  padding:20px;
+  padding:15px;
   font-family: 'Benne', serif;
   font-size: 1.7vw ;
 }
-@keyframes animate {
+@keyframes animate1 {
     0%{
         transform: translateX(-500px);
       }
@@ -67,4 +70,22 @@ body{
     75%{
         transform: translateX(0px);
       }     
+}
+@keyframes animate2 {
+  0%{
+      transform: translateX(-250px);
+    }
+      
+  75%{
+      transform: translateX(0px);
+    }     
+}
+@keyframes animate3 {
+  0%{
+      transform: translateX(-100px);
+    }
+      
+  75%{
+      transform: translateX(0px);
+    }     
 }

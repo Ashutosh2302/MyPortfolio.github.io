@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Staatliches&family=Titillium+Web:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
+}
+
+.navbar{
+  background-color: black;
+  font-weight: bold;
+}
+
+.navbar .collapse .nav-link:Hover{
+  color: red;
+}
+.navbar .collapse .active{
+  color: red;
+}
+.navbar .collapse .nav-link{
+  padding-left: 1vw;
+}
+#Education{
+    width: 90%;
+    margin: auto;
+}
+.tcd{
+    animation: animate1 6s;
+}
+.thapar{
+    animation: animate2 6s;
+}
+.dav{
+    animation: animate3 6s;
+}
+@keyframes animate1{
+    0%{
+      transform: translateY(-300px);
+    }
+    
+    75%{
+      transform: translateY(0);
+    }
+  }
+  @keyframes animate2{
+    0%{
+      transform: translateY(-200px);
+    }
+    
+    75%{
+      transform: translateY(0);
+    }
+  }
+  @keyframes animate3{
+    0%{
+      transform: translateY(-100px);
+    }
+    
+    75%{
+      transform: translateY(0);
+    }
+  }
