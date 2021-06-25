@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+ height:100vh; 
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
+}
+.navbar{
+  background-color: black;
+  font-weight: bold;
+}
+.navbar .collapse .nav-link:Hover{
+  color: red;
+}
+.navbar .collapse .active{
+  color: red;
+}
+.navbar .collapse .nav-link{
+  padding-left: 1vw;
+}
+#header{
+  width:60%;
+  margin: auto;
+  text-align: center;
+}
+#Experience{
+  width:90%;
+  margin:auto;
+  text-transform: justify;
+}
+.title{
+  color:white;
+  font-size: 40px;
+}
+.company{
+  color:white;
+}
+.points{
+  color:white;
+}
+#learnings {
+  float:left; 
+  width:30%;
+}
+#technologies{
+  float:left; 
+  width:23%;
+}
+#contribution{
+  float:right;
+  width:45%;
+}
+.points{
+  padding:20px;
+  font-family: 'Benne', serif;
+  font-size: 1.7vw ;
+}
+@keyframes animate {
+    0%{
+        transform: translateX(-500px);
+      }
+        
+    75%{
+        transform: translateX(0px);
+      }     
+}
