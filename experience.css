@@ -30,7 +30,8 @@ body{
 #Experience{
   width:90%;
   margin:auto;
-  text-transform: justify;
+  /* text-transform: justify; */
+  padding: 30px;
 }
 .title{
   color:white;
