@@ -30,22 +30,22 @@ html{
 .navbar .collapse .nav-link{
   padding-left: 1vw;
 }
-#Education{
+#Projects{
     width: 90%;
     margin: auto;
 }
-.tcd{
-    animation: animate1 6s;
+#project1, #project4{
+  animation: animate1 10s;
 }
-.thapar{
-    animation: animate2 6s;
-}
-.dav{
-    animation: animate3 6s;
+#project2, #project5{
+    animation: animate2 10s;
+  }
+#project3{
+  animation: animate3 10s;
 }
 @keyframes animate1{
     0%{
-      transform: translateY(-30rem);
+      transform: translateX(-30rem);
     }
     
     75%{
@@ -63,7 +63,7 @@ html{
   }
   @keyframes animate3{
     0%{
-      transform: translateY(-10rem);
+      transform: translateX(30rem);
     }
     
     75%{

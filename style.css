@@ -6,6 +6,9 @@
   box-sizing: border-box;
   outline: none;
 }
+html{
+  font-size: 100%;
+}
 body{
   height:100vh;
 display:flex;
@@ -74,5 +77,15 @@ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b
   
   50%{
     width: 27.9ch;
+  }
+}
+@media(max-width:998px){
+  html{
+    font-size: 65%;
+  }
+}
+@media(max-width:768px){
+  html{
+    font-size: 70%;
   }
 }

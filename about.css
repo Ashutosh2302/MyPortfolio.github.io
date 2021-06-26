@@ -10,7 +10,9 @@ body{
  height:100vh; 
  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
 }
-
+html{
+  font-size: 100%;
+}
 .navbar{
   background-color: black;
   font-weight: bold;
@@ -27,21 +29,16 @@ body{
 .heading{
     color: white;
     font-weight: bold;
-    padding-top: 20px;
-    font-size: 70px;
-    text-shadow: 2px 2px 2px red;
+    padding-top: 2rem;
     text-align: center;
 }
 
 .image{
-  /* border: 2px solid green; */
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top:1.6rem;
+  margin-bottom:1.6rem;
   display: inline-block;
   margin:auto;
-  float:left;
-  margin-right:20px;
-  
+  margin-right:1.6rem;
 }
 #image1{
   animation: slide_down 8s;
@@ -53,106 +50,92 @@ body{
   animation: slide_up 8s;
 }
 .text{
-     font-size: 30px;
+     font-size: 2rem;
     color: white;
     margin:auto;
     width: 80%;
     font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    word-spacing: 1px;	
-    padding:20px;
-    /* border: 2px red solid;  */
+    letter-spacing: .08rem;
+    word-spacing: .08rem;	
+    padding:1rem;
     color:orange;
     font-weight: bold;
     
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:1.6rem;
+    margin-bottom:1.6rem;
 }
  #text1{
-    margin-top:30px;
+    margin-top:2rem;
    animation: scroll1 6s; 
-  
-   
 }
 #text2{
- 
   animation: scroll2 6s; 
-  
- 
 }
 #text3{
-
   animation: scroll3 6s; 
-  
 } 
 @keyframes scroll1 {
   0%{
-    transform: translateX(-500px);
+    transform: translateX(-50rem);
   }
   
   25%{
     transform: translateX(0);
   }
-/*   
-  50%{
-    transform: translateY(-50px);
-  }
-  
-  75%{
-    transform: translateY(0);
-  } */
 }
 @keyframes scroll2 {
   0%{
-    transform: translateX(-500px);
+    transform: translateX(-50rem);
   }
   
   50%{
-    transform: translateX(0px);
+    transform: translateX(0);
   }
-  
-  /* 50%{
-    transform: translateY(-50px);
-  }
-  
-  75%{
-    transform: translateY(0);
-  } */
 }
 @keyframes scroll3 {
   0%{
-    transform: translateX(-500px);
+    transform: translateX(-50rem);
   }
   
   75%{
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
 @keyframes slide_down {
   0%{
-    transform: translateY(-500px);
+    transform: translateY(-50rem);
   }
   
   75%{
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 @keyframes slide_right {
   0%{
-    transform: translateX(-500px);
+    transform: translateX(-50rem);
   }
   
   75%{
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 @keyframes slide_up {
   0%{
-    transform: translateY(500px);
+    transform: translateY(50rem);
   }
   
   75%{
-    transform: translateY(0px);
+    transform: translateY(0);
+  }
+}
+@media(max-width:998px){
+  html{
+    font-size: 65%;
+  }
+}
+@media(max-width:768px){
+  html{
+    font-size: 70%;
   }
 }

@@ -10,6 +10,7 @@ html{
 }
 body{
  height:100vh; 
+ overflow: hidden;
  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
 }
 .navbar{
@@ -25,15 +26,10 @@ body{
 .navbar .collapse .nav-link{
   padding-left: 1vw;
 }
-#header{
-  width:60%;
-  margin: auto;
-  text-align: center;
-}
+
 #Experience{
-  width:90%;
+  width:100%;
   margin:auto;
-  /* text-transform: justify; */
   padding: 3rem;
 }
 .title{
@@ -45,20 +41,15 @@ body{
 }
 .points{
   color:white;
+  font-size: 3rem;
 }
 #learnings {
-  float:left; 
-  width:30%;
   animation: animate1 5s;
 }
 #technologies{
-  float:left; 
-  width:23%;
   animation: animate2 5s;
 }
 #contribution{
-  float:right;
-  width:45%;
   animation: animate3 5s;
 }
 .points{
@@ -95,11 +86,11 @@ body{
 }
 @media(max-width:998px){
   html{
-    font-size: 55%;
+    font-size: 65%;
   }
 }
 @media(max-width:768px){
   html{
-    font-size: 45%;
+    font-size: 70%;
   }
 }
