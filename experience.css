@@ -10,7 +10,7 @@ html{
 }
 body{
  height:100vh; 
- overflow: hidden;
+
  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
 }
 .navbar{
@@ -83,7 +83,7 @@ body{
 }
 @media(max-width:998px){
   html{
-    font-size: 75%;
+    font-size: 65%;
   }
 }
 @media(max-width:768px){
