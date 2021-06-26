@@ -39,10 +39,7 @@ body{
 .company{
   color:white;
 }
-.points{
-  color:white;
-  font-size: 3rem;
-}
+
 #learnings {
   animation: animate1 5s;
 }
@@ -55,7 +52,7 @@ body{
 .points{
   padding:.5rem;
   font-family: 'Benne', serif;
-  font-size: 1.7vw ;
+  font-size: 1.8rem ;
 }
 @keyframes animate1 {
     0%{
@@ -86,7 +83,7 @@ body{
 }
 @media(max-width:998px){
   html{
-    font-size: 65%;
+    font-size: 75%;
   }
 }
 @media(max-width:768px){
