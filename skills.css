@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Staatliches&family=Titillium+Web:wght@300&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -14,14 +13,12 @@ height:100vh;
 display:flex;
 justify-content: center;
 align-items: center;
-background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
+background-image:linear-gradient(rgba(68, 63, 63, 0.7),rgba(0,0,0,0.7)), url('images/b1.jpg');
 }
-
 .navbar{
   background-color: black;
   font-weight: bold;
 }
-
 .navbar .collapse .nav-link:Hover{
   color: red;
 }
@@ -37,52 +34,51 @@ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/b
   padding-top: 2rem;
   text-align: center;
 }
-
 #Skills{
   width:70%;
   margin:auto;
-  /* text-transform: justify; */
- 
 }
 #languages{
-  float:left; 
+
+  border-bottom: 1rem solid red;
+  border-left: 1rem solid red;
+  border-right: 1rem solid red;
+
+  text-align: center;
+
+}
+#technologies{
+  float:right; 
   width:40%;
   border-bottom: 1rem solid red;
   border-left: 1rem solid red;
   border-right: 1rem solid red;
-  animation: animate1 5s;
   text-align: center;
-margin-top: 2rem;
+
+  margin-top: 2rem;
 }
-#technologies{
-  float:right; 
-  width:50%;
+#frameworks{
   border-bottom: 1rem solid red;
   border-left: 1rem solid red;
   border-right: 1rem solid red;
   text-align: center;
-  animation: animate2 5s;
-  margin-top: 2rem;
 }
 .content{
   margin:1rem;
   padding:.2rem;
-  border: .2rem solid blue;
+  border: .2rem solid white;
   font-weight: bold;
 }
 .stack2{
+  background-color: black;
   color:#00FF00;
-  animation:animate 6s;
+  animation:animate 4s;
 }
 .stack1{
+  background-color: black;
   color:#FF00FF;
-  animation:animate 6s;
+  animation:animate 4s;
 }
-
-/* #css{
-  animation:animate 6s;
-} */
-
 @keyframes animate{
     0%{
       transform: translateY(-30rem);
@@ -103,3 +99,4 @@ margin-top: 2rem;
       font-size: 70%;
     }
   }
+  

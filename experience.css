@@ -41,13 +41,13 @@ body{
 }
 
 #learnings {
-  animation: animate1 5s;
+  animation: animate1 2s;
 }
 #technologies{
-  animation: animate2 5s;
+  animation: animate2 2s;
 }
 #contribution{
-  animation: animate3 5s;
+  animation: animate3 2s;
 }
 .points{
   padding:.5rem;

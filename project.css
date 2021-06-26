@@ -34,14 +34,8 @@ html{
     width: 90%;
     margin: auto;
 }
-#project1, #project4{
-  animation: animate1 10s;
-}
-#project2, #project5{
-    animation: animate2 10s;
-  }
-#project3{
-  animation: animate3 10s;
+#project1, #project2, #project5, #project4, #project3{
+  animation: animate1 4s;
 }
 @keyframes animate1{
     0%{
