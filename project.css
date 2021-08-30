@@ -35,7 +35,7 @@ html{
     margin: auto;
 }
 #project1, #project2, #project5, #project4, #project3{
-  animation: animate1 4s;
+  animation: animate1 2s;
 }
 @keyframes animate1{
     0%{

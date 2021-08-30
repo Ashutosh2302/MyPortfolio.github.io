@@ -35,13 +35,13 @@ html{
     margin: auto;
 }
 .tcd{
-    animation: animate1 4s;
+    animation: animate1 2s;
 }
 .thapar{
-    animation: animate2 4s;
+    animation: animate2 2s;
 }
 .dav{
-    animation: animate3 4s;
+    animation: animate3 2s;
 }
 @keyframes animate1{
     0%{
